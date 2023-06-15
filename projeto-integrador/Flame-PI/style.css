@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Khand');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html{
+    scroll-behavior: smooth;
+
+
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url("pictures/fundo.avif");
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    font-family: 'Khand', sans-serif;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.home{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.top-nav{
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    left: 50%;
+    margin: 0;
+    font-size: 2em;
+    transform: translateX(-50%);
+   
+}
+
+.top-nav a{
+    color: #000000;
+    font-family: 'Khand', sans-serif;
+    display: block;
+}
+
+.top-nav a img{
+    margin-top: -15px;
+    width: 90px;
+}
+
+.aside-float{
+    text-align: right;
+    width: 20%;
+    padding: 15px;
+}
+
+.nav-side{
+    position: sticky;
+    top: 0;
+}
+
+.nav-side a{
+    color: #f2f2f2;
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+}
+
+.nav-side img{
+    vertical-align: middle;
+    padding-left: 10px;
+    width: 75px;
+
+}
+
+.nav-side a {
+
+    color: #000000;
+    font-family: monospace;
+
+}
+
+.items{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.menu-items{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    break-inside: avoid;
+    border-bottom: #000000 2px dotted;
+    font-size: 1.4em;
+}
+
+.content-menu{
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+.content-side{
+    border-left: #000000 2px solid;
+    display: block;
+    width: 100%;
+}
+
+.header1{
+    background-image: url("pictures/prato.jpg");
+    background-size: cover;
+}
+
+.header2{
+    background-image: url("pictures/bebidas.jpg");
+    background-size: cover;
+}
+
+.header3{
+    background-image: url("pictures/sobremesa.jpg");
+    background-size: cover;
+}
+
+.h1{
+    font-size: 5em;
+    text-align: center;
+    border-top: #f2f2f2 2px solid;
+    border-bottom: #f2f2f2 2px solid;
+}
+
+section h1{
+    color: #f2f2f2;
+    font-size: 4em;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(37, 28, 15, 0.534);
+}
+
+footer{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
